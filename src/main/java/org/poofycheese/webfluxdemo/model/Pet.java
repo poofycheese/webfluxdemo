@@ -4,14 +4,14 @@ public class Pet {
 
 	private String name;
 	private String type;
-	private String ownesName;
+	private String ownersName;
 	
 	
-	public Pet(String name, String type, String ownesName) {
+	public Pet(String name, String type, String ownersName) {
 		super();
 		this.name = name;
 		this.type = type;
-		this.ownesName = ownesName;
+		this.ownersName = ownersName;
 	}
 	public String getName() {
 		return name;
@@ -25,12 +25,13 @@ public class Pet {
 	public void setType(String type) {
 		this.type = type;
 	}
-	public String getOwnesName() {
-		return ownesName;
+	public String getOwnersName() {
+		return ownersName;
 	}
-	public void setOwnesName(String ownesName) {
-		this.ownesName = ownesName;
+	public void setOwnersName(String ownersName) {
+		this.ownersName = ownersName;
 	}
+	
 	
 	
 }
